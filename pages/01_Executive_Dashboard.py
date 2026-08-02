@@ -399,4 +399,3 @@ This suggests that both strong storytelling and established studio reputation co
 
 st.write(summary)
 ```
-
