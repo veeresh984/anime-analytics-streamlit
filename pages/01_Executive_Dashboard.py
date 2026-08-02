@@ -1,6 +1,3 @@
-# 01_Executive_Dashboard.py
-
-```python
 import streamlit as st
 from utils.data_loader import load_data
 from utils.charts import rating_histogram, top_genres_chart, score_popularity_scatter
@@ -22,7 +19,6 @@ col4.metric("Total Studios", df['Studios'].nunique())
 st.divider()
 
 c1, c2 = st.columns(2)
-]
 with c1:
     st.subheader("⭐ Score Distribution")
     st.plotly_chart(rating_histogram(df), use_container_width=True)
