@@ -1,4 +1,3 @@
-03_Rating_Insights.py
 import streamlit as st
 import plotly.express as px
 from utils.data_loader import load_data
